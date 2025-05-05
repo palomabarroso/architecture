@@ -10355,12 +10355,12 @@
     </mxGraphModel>
   </diagram>
   <diagram id="YZ9zaYHXf94MCgO2Vmix" name="DATA FLOW">
-    <mxGraphModel dx="868" dy="1637" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1389" dy="1918" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="lASs0say7jwBL_Wn8fMt-3" value="Stripe" style="shape=image;verticalLabelPosition=top;labelBackgroundColor=default;verticalAlign=bottom;aspect=fixed;imageAspect=0;image=https://freelogopng.com/images/all_img/1685814539stripe-icon-png.png;labelPosition=center;align=center;" vertex="1" parent="1">
-          <mxGeometry x="355.5" y="-1050" width="50" height="50" as="geometry" />
+          <mxGeometry x="354.5" y="-1042" width="50" height="50" as="geometry" />
         </mxCell>
         <mxCell id="lASs0say7jwBL_Wn8fMt-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="lASs0say7jwBL_Wn8fMt-6" target="lASs0say7jwBL_Wn8fMt-36">
           <mxGeometry relative="1" as="geometry" />
@@ -10500,8 +10500,11 @@
             <mxPoint x="36" y="14" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="lASs0say7jwBL_Wn8fMt-49" value="User Fix data" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=48;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="7" y="-1149" width="809" height="30" as="geometry" />
+        <mxCell id="lASs0say7jwBL_Wn8fMt-49" value="User Fix data" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=24;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="9" y="-1143" width="809" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="lASs0say7jwBL_Wn8fMt-52" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Rule Book&lt;/h1&gt;&lt;p&gt;Will exists a enum field with the data status.&lt;br&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;b&gt;ORIGINAL_WITH_ERROR -&lt;/b&gt; Original data but with inconsistent&lt;/li&gt;&lt;li&gt;&lt;b&gt;UPDATED_BY_USER -&lt;/b&gt; The user update by First base platform&lt;/li&gt;&lt;li&gt;&lt;b&gt;UPDATED_FROM_STRIPE -&lt;/b&gt; This status will be used when the data has not been updated by the user, but has been updated on stripe with errors&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="55" y="-450" width="738.5" height="398" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
